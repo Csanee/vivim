@@ -1,0 +1,53 @@
+body{
+    background-image: url('pngegg.png');
+    background-color: palevioletred;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 0, 128);
+    font-size: 40pt;
+}
+
+.main{
+    margin: auto;
+    text-align: center;
+    background-color: blueviolet;
+    width: 1000px;
+    height: 300px;
+ 
+    position: relative;
+    padding: 10px;
+}
+.banner a img{
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 17%;
+}
+.cim{
+    font-size: 30pt;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    color: rgb(255, 0, 128);
+}
+.vivim1{
+    position: absolute;
+    right: 57%;
+}
+.sticky{
+    box-sizing: border-box;
+position: sticky;
+top: 5px;
+width: 1020px;
+height: 70px;
+background-color: darkmagenta;
+text-align: center;
+margin: auto;
+transition: all 0.5s ease-in-out;
+}
+
+.sticky:hover{
+    scale: 1.1;
+    background-color:violet;
+    border-radius: 20%;
+}
